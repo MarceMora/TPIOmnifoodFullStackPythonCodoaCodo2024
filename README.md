@@ -1,7 +1,12 @@
 Trabajo Practico Integrador del curso FullStack Python del Programa Codo a Codo de la Ciudad de Buenos Aires 2024. 
 
 
+<img src="/resourses/img/FullStackPython.jpg">
+
 💻 Comisión 24184 - Lunes y Miercoles de 17:00 a 18:30 hs.
+
+
+<img src="/resourses/img/CodoaCodo.jpg">
 
 
 Instructor/a: Paola Romero.
