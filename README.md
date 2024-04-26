@@ -10,6 +10,5 @@ Gabriel Caballero DNI:
 Nicolas           DNI:
 
 Caracteristicas del Proyecto:
-El proyecto es una ONE-Page con varias secciones y el objetivo es la venta de planes de comida On-line mediante,
-planes pagos de afiliacion.
+El proyecto es una ONE-Page con varias secciones y el objetivo es la venta de planes de comida On-line y entrega a domicilio gratis.
           
