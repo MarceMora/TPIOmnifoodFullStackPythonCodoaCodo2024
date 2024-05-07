@@ -59,6 +59,7 @@ h1 {
 
 h2 {
     font-size: 180%;
+    color: #fff;
     word-spacing: 2px;
     text-align: center;
     margin-bottom: 30px;
@@ -67,6 +68,7 @@ h2 {
 
 h3 {
     font-size: 110%;
+    color: #fff;
     margin-bottom: 15px;
 }
 
@@ -78,6 +80,10 @@ h2:after {
     width: 100px;
     margin: 0 auto;
     margin-top: 30px;
+}
+
+p {
+    color: #fff;
 }
 
 /*  PARRAFOS  */
@@ -225,10 +231,20 @@ header {
 .main-nav {
     float: right;
     margin-top: 55px;
+    color: #fff;
 }
+
+.main-nav-cities {
+    float: right;
+    margin-top: 55px;
+    color: #fff;
+    margin-right: 275px;
+}
+
 .main-nav li {
     display: inline-block;
     margin-left: 40px;
+    color: #fff;
 }
 .main-nav li a:link,
 .main-nav li a:visited {
@@ -258,6 +274,41 @@ header {
     color: #fff;
 } 
 
+/* NUESTRAS CIUDADES  */
 
+.section-cities {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 80px 0;
+}
 
+.section-cities h2 {
+    margin-bottom: 50px;
+    color: #fff;
+}
 
+.city-feature {
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.city-feature .icon-small {
+    margin-right: 10px;
+    color: #fff;
+}
+
+.centered-image-cities {
+    max-width: 75%;
+    max-height: 75%; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+/* COMO FUNCIONA  */
+
+.size-image {
+    width: 700px; 
+    height: 300px;
+    object-fit: cover; 
+}
