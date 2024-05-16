@@ -13,16 +13,16 @@ body {
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 1.1rem;
-    text-rendering: optimizeLegibility;
-    overflow-x: hidden;
+    text-rendering: optimizeLegibility;  /* para optimizar la lectura del texto */
+    overflow-x: hidden;                 /* para esconder el scrool y no se muesten los elementos fuera del contenedo */
 }
 .clearfix {zoom: 1;}
 .clearfix:after {
     content: '.';
-    clear: both;
+    clear: both;    /*especifica si un elemento puede estar al lado de elementos flotantes que lo preceden o si debe ser movido (cleared) debajo de ellos. La propiedad clear aplica a ambos elementos flotantes y no flotantes. */
     display: block;
     height: 0;
-    visibility: hidden;
+    visibility: hidden;    /* El valor hidden esconde un elemento, pero deja (vacío) el espacio donde debería aparecer. */
 }
 
 /* Componentes Reutilizables */
@@ -45,7 +45,7 @@ h1,
 h2,
 h3 {
     font-weight: 300;
-    text-transform: uppercase;
+    text-transform: uppercase;   /* transforma el texto de minuscula a mayuscula */
 }
 
 h1 {
@@ -53,8 +53,8 @@ h1 {
     margin-bottom: 20px;
     color: #fff;
     font-size: 240%;
-    word-spacing: 4px;
-    letter-spacing: 1px;
+    word-spacing: 4px;  /*establece la longitud del espacio entre palabras y entre etiquetas. */
+    letter-spacing: 1px;  /* establece el comportamiento de espaciado horizontal entre caracteres de texto. */
 }
 
 h2 {
@@ -90,7 +90,7 @@ h2:after {
 
 .box p {
     font-size: 90%;
-    line-height: 145%;
+    line-height: 145%; /*  Comúnmente se usa para establecer la distancia entre líneas de texto.*/
 }
 
 /* ICONOS */
@@ -131,14 +131,14 @@ a:visited {
 a:hover,
 a:active {
     color: #555;
-    border-bottom: 1px solid transparent;
+    border-bottom: 1px solid transparent;  /*permite de definir de una vez todas las propiedades individuales border-bottom-color, border-bottom-style, y border-bottom-width, las cuales describen el color, estilo y ancho del borde inferior de un elementos. */
 }
 
 /*  BOTONES  */
 
 .btn:link,
 .btn:visited,
-input[type=submit] {
+input[type=submit] {    /* estilos al boton de entradatipo submit */
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
@@ -195,7 +195,7 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    background-attachment: fixed;
+    background-attachment: fixed;  /* determina si la posición de la imagen de fondo será fija dentro de la pantalla o se desplazará con su bloque contenedor.*/
 }
 .hero-text-box {
     position: absolute;
@@ -207,7 +207,7 @@ header {
 .logo_claro {
     height: 100px;
     width: auto;
-    float: left;
+    float: left;   /*ubica un elemento al lado izquierdo o derecho de su contenedor, permitiendo a los elementos de texto y en línea aparecer a su costado.     */
     margin-top: 20px;
     
 }
