@@ -15,10 +15,10 @@ Instructor/a: Paola Romero.
 
 Grupo 17
 Integrantes: 
-Marcelo Mora  DNI: 96251984
-Ana Galean    DNI:
-Gabriel Caballero DNI:
-Nicolas           DNI:
+Marcelo Mora         DNI: 96251984
+Ana Galean           DNI:
+Gabriel Caballero    DNI:
+Nicolas Bourguignon  DNI:
 
 Caracteristicas del Proyecto:
 El proyecto es una ONE-Page con varias secciones y el objetivo es la venta de planes de comida On-line y entrega a domicilio gratis.
