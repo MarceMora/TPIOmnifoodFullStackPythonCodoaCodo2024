@@ -111,12 +111,54 @@
     .works-step { margin-bottom: 20px; }
     .works-step:last-of-type { margin-bottom: 20px; }
     
-}
 
+    .section-cities {
+        padding: 40px 20px; 
+    }
 
+    .section-cities h2 {
+        margin-bottom: 30px; 
+        font-size: 1.5em; 
+    }
 
-/* Small phones: from 0 to 480px */
-@media only screen and (max-width: 480px) {
-    section { padding: 25px 0; }
-    .contact-form {width: 100%; }
+    .city-feature {
+        margin-top: 15px; 
+        font-size: 1em; 
+    }
+
+    .city-feature .icon-small {
+        margin-right: 5px; 
+        font-size: 1.2em; 
+    }
+
+    .centered-image-cities {
+        max-width: 90%;
+        max-height: 90%;
+    }
+
+    .main-nav-cities{
+        font-size: 1.2em;
+        margin-top: 5px; 
+        margin-bottom: 5px; 
+
+    }
+
+    .row {
+        margin-left: 30px; 
+        font-size: 10px;
+    }
+
+    .size-image {
+        max-width: 25%;
+        max-height: 25%;
+    }
+    
+    h3 {
+        font-size: 80%;
+    } 
+
+    p  {
+        font-size: 80%;
+    }
+
 }
