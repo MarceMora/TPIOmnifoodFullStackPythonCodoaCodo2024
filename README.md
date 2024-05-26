@@ -16,7 +16,7 @@ Instructor/a: Paola Romero.
 Grupo 17
 Integrantes: 
 Marcelo Mora       DNI: 96251984   Impulsor
-Ana Galean         DNI:            Creativa
+Ana Galean         DNI: 39676487   Creativa
 Gabriel Caballero  DNI:            Lider
 Nicolas Bourguigon DNI: 37479754   Mediador
 
