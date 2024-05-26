@@ -204,14 +204,14 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.logo_claro {
+.logo {
     height: 100px;
     width: auto;
     float: left;   /*ubica un elemento al lado izquierdo o derecho de su contenedor, permitiendo a los elementos de texto y en línea aparecer a su costado.     */
     margin-top: 20px;
     
 }
-.logo_obscuro { 
+.logo-black { 
     display: none;
     height: 50px;
     width: auto;
