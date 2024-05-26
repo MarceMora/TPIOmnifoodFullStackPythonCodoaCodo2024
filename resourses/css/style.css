@@ -195,14 +195,17 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    background-attachment: fixed;  /* determina si la posición de la imagen de fondo será fija dentro de la pantalla o se desplazará con su bloque contenedor.*/
+    background-attachment: fixed;   /* determina si la posición de la imagen de fondo será fija dentro de la pantalla o se desplazará con su bloque contenedor.*/
 }
 .hero-text-box {
     position: absolute;
-    width: 1140px;
+    width: 90%; 
+    max-width: 1140px; 
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding: 20px;
+    box-sizing: border-box; 
 }
 .logo_claro {
     height: 100px;
