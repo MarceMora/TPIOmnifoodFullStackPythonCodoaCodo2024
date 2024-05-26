@@ -191,7 +191,7 @@ a{
 /*  COMIENZO DEL HEADER CON EL BANNER, TEXTO Y LOGO  */
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(resourses/img/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://marcemora.github.io/TPIOmnifoodFullStackPythonCodoaCodo2024/resourses/img/hero.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
