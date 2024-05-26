@@ -18,7 +18,7 @@ Integrantes:
 Marcelo Mora       DNI: 96251984   Impulsor
 Ana Galean         DNI:            Creativa
 Gabriel Caballero  DNI:            Lider
-Nicolas Bourguigon DNI:            Mediador
+Nicolas Bourguigon DNI: 37479754   Mediador
 
 Caracteristicas del Proyecto:
 El proyecto es una ONE-Page con varias secciones y un formulario y el objetivo es la venta de planes de comida On-line y entrega a domicilio gratis.
