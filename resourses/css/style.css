@@ -527,6 +527,7 @@ input[type=checkbox] {
 .error{
     color: #c43b29;
     font-weight: 400;
+    margin-top: 10px;
 }
 *:focus {outline: none;}
 
