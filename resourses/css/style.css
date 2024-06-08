@@ -100,6 +100,8 @@ h2:after {
     display: block;
     color: #e67e22;
     margin-bottom: 10px;
+    margin-left: 70px;    /* Alinear los iconos en el centro del texto  */
+    
 }
 
 .icon-small {
@@ -188,63 +190,118 @@ a{
     text-decoration: none;
 }
 
+/*  TERMINA EL FORMATEO DE LOS ESTILOS */
+
+
+
 /*  COMIENZO DEL HEADER CON EL BANNER, TEXTO Y LOGO  */
 
+
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://marcemora.github.io/TPIOmnifoodFullStackPythonCodoaCodo2024/resourses/img/hero.jpg);
-    background-size: cover;
-    background-position: center;
+    height: 25%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 30px 20px;
+    z-index: 10;
+}
+header img{
+    width: 8%;
+}
+header.abajo{
+    background: #fff;
+    padding: 15px 20px;
+}
+header .logo{
+    position: relative;
+    transition: 1.2s;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li a{
+    position: relative;
+    font-family: helvetica;
+    margin: 0 15px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 200;
+    transition: 0.7s;
+}
+
+/* Texto del Banner  */
+.Banner{
+    position: relative;
+    width: 100%;
     height: 100vh;
-    background-attachment: fixed;   /* determina si la posición de la imagen de fondo será fija dentro de la pantalla o se desplazará con su bloque contenedor.*/
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://marcemora.github.io/TPIOmnifoodFullStackPythonCodoaCodo2024/resourses/img/hero.jpg);
+    background-size: cover;
+    background-position: center center;
 }
-.hero-text-box {
-    position: absolute;
-    width: 90%; 
-    max-width: 1140px; 
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 20px;
-    box-sizing: border-box; 
+.Banner h1{
+    text-align: left;
+    margin-left: 150px;
+    padding-top: 20%;
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    font-weight: 300;
+    margin-bottom: 40px;
 }
-.logo_claro {
-    height: 100px;
-    width: auto;
-    float: left;   /*ubica un elemento al lado izquierdo o derecho de su contenedor, permitiendo a los elementos de texto y en línea aparecer a su costado.     */
-    margin-top: 20px;
-    
+.Banner .boton{
+    display: flex;
+    margin-left: 150px;
+    gap: 40px;
 }
-.logo_obscuro { 
-    display: none;
-    height: 50px;
-    width: auto;
-    float: left;
-    margin: 5px 0;
-    
+.boton .btn-full{
+    padding: 15px;
+    border-radius: 15px;
+    transition: background .3s ease-in-out;
 }
+.boton .btn-ghost{
+    padding: 15px;
+    border-radius: 15px;
+    transition: background .3s ease-in-out;
+}
+.boton .btn-ghost:hover{
+    background:#e67e22;
+}
+.boton .btn-full:hover{
+    background:#b15403;
+}
+header.abajo ul li a{
+    color: #000;
+}
+
+
+
 
 /*  HEADER - NAVEGACION  */
 
-.main-nav {
-    float: right;
-    margin-top: 55px;
-}
-.main-nav li {
-    display: inline-block;
-    margin-left: 40px;
-}
-.main-nav li a:link,
-.main-nav li a:visited {
+nav li a:link,
+nav li a:visited {
     padding: 8px 0;
     color: #fff;
     text-transform: uppercase;
     font-size: 90%;
-    border-bottom: 2px solid transparent;
+    border-bottom: 2px solid transparent;     /* Subrayado del texto de cada link */
     transition: border-bottom 0.2s;
 }
-.main-nav li a:hover,
-.main-nav li a:active {
-    border-bottom: 2px solid #e67e22;
+nav li a:hover,
+nav li a:active {
+    border-bottom: 2px solid #e67e22;  /* Cambia el subrayado del texto de transparente a naranja */
 }
 
 /* MENU HAMBURGUESA - ICONO  */
@@ -260,7 +317,11 @@ header {
     font-size: 200%;
     color: #fff;
 } 
+
+
 /* Sticky navi */
+
+
 .sticky {
     position: fixed;
     top: 0;
@@ -304,7 +365,7 @@ header {
     width: 25%;
 }
 
-.meal-photo {
+.meal-photo {    /* Contenedor de cada Imagen */
     width: 100%;
     margin: 0;
     overflow: hidden;
@@ -332,30 +393,32 @@ header {
 /* HOW IT WORKS SECTION */
 
 
-.video-container {
-    position: relative;
-    width: 80%;
-    max-width: 800px; 
-    margin: 0 auto;
-    padding-top: 56.25%;
-    overflow: hidden; 
-    margin-top: 20px;
-}
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 80%;
-    height: 80%;
-    padding-top: 150px;
-}
-
 .section-steps {
     background-color: #f4f4f4;
 }
 .steps-box {
     margin-top: 30px;
 }
+
+
+/* Animacion al Iphone al actualizar la pagina en la seccion correspondiente */
+
+
+.fadeInUp {
+    animation:fadeInUp 1s both;
+}
+@keyframes fadeInUp  {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+
 .steps-box:first-child {
     text-align: right;
     padding-right: 3%;
@@ -395,6 +458,26 @@ header {
     height: 50px;
     width: auto;
     margin-right: 10px;
+    margin-bottom: 160px;
+}
+
+/*-- Sesion correspondiente al iframe-- */
+.video-container {
+    position: relative;
+    width: 80%;
+    max-width: 800px; 
+    margin: 0 auto;
+    padding-top: 56.25%;
+    overflow: hidden; 
+    
+}
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 60%;
+    padding-top: 0px;
 }
 
 /* CITIES */
@@ -537,14 +620,12 @@ input[type=checkbox] {
 footer {
     background-color: #333;
     padding: 50px;
-    font-size: 80%;
+    font-size: 90%;
 }
 .footer-nav {
-    list-style: none;
     float: left;
 }
 .social-links {
-    list-style: none;
     float: right;
 }
 .footer-nav li,
@@ -560,10 +641,8 @@ footer {
 .footer-nav li a:visited, 
 .social-links li a:link,
 .social-links li a:visited {
-    text-decoration: none;
     border: 0;
     color: #888;
-    -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 .footer-nav li a:hover,
@@ -574,54 +653,30 @@ footer {
 .social-links li a:visited {
     font-size: 160%;
 }
-.ion-social-facebook,
-.ion-social-twitter,
-.ion-social-googleplus,
-.ion-social-instagram {
+.fa-facebook,
+.fa-square-x-twitter,
+.fa-google-plus-g,
+.fa-instagram{
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
-.ion-social-facebook:hover {
+.fa-facebook:hover {
     color: #3b5998;
 }
-.ion-social-twitter:hover {
+.fa-square-x-twitter:hover {
     color: #00aced;
 }
-.ion-social-googleplus:hover {
-    color: #dd4b39;
+.fa-google-plus-g:hover {
+    color: #92ce23;
 }
-.ion-social-instagram:hover {
-    color: #517fa4;
+.fa-instagram:hover {
+    color:#d12424 ;
 }
 footer p {
     color: #888;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
 }
-
-/* Animations */
-
-.js--wp-1,
-.js--wp-2,
-.js--wp-3
-{
-    opacity: 0;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-}
-
-.js--wp-4 {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-}
-
-.js--wp-1.animated,
-.js--wp-2.animated,
-.js--wp-3.animated {
-    opacity: 1;
-}
-
-
 
 /*  MEDIA QUERY  */
 
