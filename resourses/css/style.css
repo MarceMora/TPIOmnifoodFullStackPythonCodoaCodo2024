@@ -737,6 +737,20 @@ footer p {
         width: 100%;
         margin: 0 0 4% 0;
     }
+
+    header.abajo{
+        background: #fff;
+        padding: 15px 20px;
+        font-size: 10px;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+    header.arriba{
+        padding: 15px 20px;
+        font-size: 10px;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
     
     
     .main-nav { display: none; }
@@ -930,6 +944,14 @@ footer p {
         margin: 0 0 4% 0;
     }
     
+    .Banner h1{
+        margin-left: 10px;
+        padding-top: 50%;
+    }
+
+    .Banner .boton {
+        margin-left: 10px;
+    }
     
     /*.main-nav { display: none; }*/
     .mobile-nav-icon {display: inline-block;}
